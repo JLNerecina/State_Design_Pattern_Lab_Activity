@@ -34,15 +34,15 @@ The State Pattern encapsulates varying behavior for the same object based on its
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
-│    Active ──────suspend()──────> Suspended                 │
+│    Active ──────suspend()──────> Suspended                  │
 │      ▲                              │                       │
 │      │                              │                       │
 │      └──────activate()──────────────┘                       │
 │                                                             │
 │    Active ──────close()──────> Closed                       │
-│                                  │                         │
-│    Suspended ────close()────────>│                         │
-│                                  │                         │
+│                                  │                          │
+│    Suspended ────close()────────>│                          │
+│                                  │                          │
 │    Closed: No state transitions allowed                     │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
