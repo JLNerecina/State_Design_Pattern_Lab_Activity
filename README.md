@@ -63,7 +63,7 @@ The State Pattern encapsulates varying behavior for the same object based on its
            │
     ┌──────┴──────┬─────────────┐
     │             │             │
-┌───▼────────┐ ┌──▼──────────┐ ┌──▼──────────┐
+┌───▼────────┐ ┌──▼───────────┐ ┌──▼─────────┐
 │ActiveState │ │SuspendedState│ │ClosedState │
 ├────────────┤ ├──────────────┤ ├────────────┤
 │ Implements │ │ Implements   │ │ Implements │
@@ -269,7 +269,7 @@ The State Pattern is commonly used in:
 The State Design Pattern provides an elegant solution for managing object behavior that varies based on internal state. This implementation demonstrates how to build a maintainable, scalable banking system that can easily accommodate new account states and behaviors without modifying existing code.
 
 ## Author
-**JLNerecina** - State Design Pattern Lab Activity
+**JLNerecina** - State Design Pattern Software Engineering 2 Lab Seatwork
 
 ## Date Created
 February 10, 2026
